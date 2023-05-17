@@ -1,0 +1,158 @@
+.logo{
+    border-radius: 50%;
+    height:40px;
+    width:auto;
+}
+html, body{
+    margin:0;
+}
+p{
+    margin:0;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding:100px;
+    flex:auto;
+    height:200px;
+    
+    gap:5px;
+
+}
+.intro-p{
+    
+    flex:auto;
+}
+.intro-img{
+    height:100%;
+    width:100%;
+    margin-top:40px;
+    flex:auto;
+}
+.title{
+    font-size: 48px;
+    color: white;
+    margin-bottom: 0;
+    flex:auto;
+}
+.description{
+    font-size: 18px;
+    color: white;
+    flex:auto;
+}
+.random{
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 60px;
+}
+.quote{
+
+    padding: 100px;
+    background-color: #E5E7EB;
+}
+.rand-p{
+    font-weight: bold;
+    font-size: 36px;
+    padding-bottom: 80px;
+
+    padding-top: 40px;
+}
+.rand-imgs{
+    display: flex;
+    font-size: 18px;
+    flex:auto;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.rand-imgs img{
+    height: 150px;
+    width: auto;
+    flex: 1 1 auto;
+    border-radius: 15px;
+    border-style: groove;
+    border-color: #3882F6;
+}
+.fir{
+    font-size: 36px;
+    font-weight: lighter;
+}
+.sec{
+    justify-self:end;
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+}
+.action{
+    padding:70px 100px 70px 100px;
+}
+.footer{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 25px;
+    font-size: 13px;
+
+}
+.message{
+    flex:auto;
+    display: flex;
+    gap: 30px;
+    margin:10px 20px 10px 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    flex:auto;
+    height:120px;
+}
+.call{
+    font-size: 18px;
+    font-weight: bold;
+}
+.click{
+    font-size:14px;
+}
+.message button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    padding:4px;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color:white;
+    padding: 10px;
+
+}
+.b1{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding:8px;
+}
+.links{
+    display: flex;
+    gap:15px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
